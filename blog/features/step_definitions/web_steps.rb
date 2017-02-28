@@ -12,4 +12,3 @@ end
 Then /^I should see "(.*?)"/ do |message|
   page.has_content?(message)
 end
-
