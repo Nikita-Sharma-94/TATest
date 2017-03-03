@@ -67,6 +67,6 @@ Capybara.ignore_hidden_elements = false
 Capybara.default_driver = :selenium
 Capybara.app_host = "http://localhost:3000"
 Capybara.register_driver :selenium do |app|
-  Capybara::Selenium::Driver.new(app, :browser => :safari)
+  Capybara::Selenium::Driver.new(app, :browser => :chrome)
 end
 

@@ -21,5 +21,3 @@
 Once you have the server running use the following command to run the cucumber tests
 
 ```$ bundle exec cucumber```
-
-
