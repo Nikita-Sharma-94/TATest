@@ -62,11 +62,10 @@ Cucumber::Rails::Database.javascript_strategy = :truncation
 Capybara.run_server = true
 Capybara.server_port = 3002
 Capybara.default_selector = :css
-Capybara.default_wait_time = 5 
+Capybara.default_max_wait_time = 5 
 Capybara.ignore_hidden_elements = false
 Capybara.default_driver = :selenium
 Capybara.app_host = "http://localhost:3000"
 Capybara.register_driver :selenium do |app|
   Capybara::Selenium::Driver.new(app, :browser => :chrome)
 end
-
